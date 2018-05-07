@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+	  <script type="text/javascript" src="success.js">
+	  </script>
+</head>
+<body>
+  <title>goverment job</title>
+  <h1><div style="text-align:center"> candidate information </h1>
+
+     <form name="form1" method="post" onsubmit="message()">
+	    <table border=1 bgcolor="sky blue" align="center">
+            <tr>
+                <td>Name:<span style="color:red">*</td>
+                <td><input type="text" placeholder="Name" id="un"></td>
+            </tr>
+    		<tr>
+                <td>Password:<span style="color:red">*</td>
+                <td><input type="password" placeholder="password" id="pass"></td>
+			</tr>
+            <tr> 
+                <td>Phone number:<span style="color:red">*</td>
+                <td><input type="text" name="phone no" pattern="[0-9]{10}" title="0123456789"></td>
+  			</tr>
+            <tr>
+                <td>Gender:<span style="color:red">*</td>
+                <td><input type="radio" name="gender" value="male">male
+                <input type="radio" name="gender" value="female">female</td> 				
+            </tr> 
+			<tr>
+			    <td>Date of Birth:<span style="color:red">*</td>
+				<td><input type="date" name="date" value=""></td>
+            </tr>
+			<tr>
+			    <td>Email:<span style="color:red">*</td>
+				<td><input type="email" name="email" id="email"></td>
+			</tr>
+            <tr>
+                <td>Highest Qualification:<span style="color:red">*</td>
+				<td><select name="Highest Qualification">
+				<option value="Select Highest qualification">select Higest qualification</option>
+				<option value="MCA">MCA</option>
+				<option value="BE">BE</option>
+				<option value="BTECH">BTECH</option>
+				<option value="MTECH">MTECH</option>
+				</select></td>
+			</tr>
+            <tr>
+                <td>Courses Interested in:<span style="color:red">*</td>
+                <td><input type="checkbox" name="courses interested in" value="JAVA">JAVA
+                <input type="checkbox" name="courses interested in" value="HTML">HTML
+                <input type="checkbox" name="courses interested in" value="CSS 3">CSS 3
+                <input type="checkbox" name="courses interested in" value="Angular Js">Angular Js
+                <input type="checkbox" name="courses interested in" value="JQuery">JQuery</td>
+            </tr>
+	        <tr>
+                <td>Comments:(Mention External Certifications if any)</td>
+                <td><textarea name="comments" rows="2" cols="20"></textarea></td>
+			</tr>
+            <tr>
+                <td>Upload degree/External certificates:<span style="color:red">*</td>
+                <td><input type="FILE" name="degree certificates" value="choose file"/> </td>
+            </tr>
+            <tr>
+                <td><td colspan="3"><input type= "submit" name="submit-button" value="submit information"/>
+                <input type="reset" name="reset-button" value="reset"></td>
+            </tr>
+	</table>
+  <div style="text-align:center"><span style="color:red"><pre>All fields marked(*)are mandatory</pre></span></div> 	
+</body>
+</html>			
+         				
+                				
+				
+           			
+ 
+   
